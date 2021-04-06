@@ -1,0 +1,116 @@
+     /*************/
+    /*Chronomètre*/
+   /*************/
+
+#chronotime{
+    font-size: 2em;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 50px;
+    color : grey;
+}
+
+     /*************/
+    /* Tableau   */
+   /*************/
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    cursor:pointer;
+    
+    /*opacity: 0.4;*/
+}
+
+td {
+    border: solid 1px black;                
+    display: table-cell;
+    width: 80px;
+    height: 65px;
+    text-align: center;
+    background-color: white;
+}
+
+#player1{
+    text-align:center;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#player2{
+    text-align:center;
+    color:blue;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.eau{
+    background-color:#3498DB;
+}
+
+.terre{
+    background-color: #008000;  
+}
+
+.unknown{
+    background-image:url('images/unknown.png');
+    Background-position : center center
+}
+
+.croix{
+    background-image:url('images/croix.png');
+    Background-position : center center
+}
+
+/* Roles */
+.terre1{
+    background-image:url('images/flag.png');
+    Background-position : center center
+}
+
+.terre2{
+    background-image:url('images/marshal.png');
+    Background-position : center center
+}
+.terre3{
+    background-image:url('images/general.png');
+    Background-position : center center
+}
+.terre4{
+    background-image:url('images/colonel.png');
+    Background-position : center center;
+}
+.terre5{
+    background-image:url('images/commandant.png');
+    Background-position : center center;
+}
+.terre6{
+    background-image:url('images/captain.png');
+    Background-position : center center
+}
+.terre7{
+    background-image:url('images/lieutenant.png');
+    Background-position : center center
+}
+.terre8{
+    background-image:url('images/sergeant.png');
+    Background-position : center center
+}
+.terre9{
+    background-image:url('images/deminer.png');
+    Background-position : center center
+}
+.terre10{
+    background-image:url('images/scout.png');
+    Background-position : center center
+}
+.terre11{
+    background-image:url('images/spy.png');
+    Background-position : center center
+}
+.terre12{
+    background-image:url('images/bomb.png');
+    Background-position : center center
+}
+

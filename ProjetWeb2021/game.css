@@ -1,0 +1,251 @@
+html{
+    background-color: #232426;  
+    text-decoration: none;
+}
+.navbar-brand{
+    position: relative;
+    left: 6%;
+}
+.nav-item{
+    position: relative;
+    left: 70%;
+}
+.navbar.navbar-expand-lg.navbar-light{
+    background-color: black;
+    height: 140px;
+}
+body{
+    background-color: #dedfe3;
+}
+.title {
+    color: #131616;
+    line-height: 3.625rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left: 7%;
+}
+
+     /*************/
+    /*Chronomètre*/
+   /*************/
+
+   #chronotime{
+    font-size: 2em;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 50px;
+    color : grey;
+}
+
+     /*************/
+    /* Tableau   */
+   /*************/
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    cursor:pointer;
+    
+    /*opacity: 0.4;*/
+}
+
+td {
+    border: solid 1px black;                
+    display: table-cell;
+    width: 80px;
+    height: 65px;
+    text-align: center;
+    background-color: white;
+}
+
+#player1{
+    text-align:center;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#player2{
+    text-align:center;
+    color:blue;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.eau{
+    background-color:#3498DB;
+}
+
+.terre{
+    background-color: #008000;  
+}
+
+.unknown{
+    background-image:url('images/unknown.png');
+    Background-position : center center
+}
+
+/* Roles */
+.terre1{
+    background-image:url('images/flag.png');
+    Background-position : center center
+}
+
+.terre2{
+    background-image:url('images/marshal.png');
+    Background-position : center center
+}
+.terre3{
+    background-image:url('images/general.png');
+    Background-position : center center
+}
+.terre4{
+    background-image:url('images/colonel.png');
+    Background-position : center center;
+}
+.terre5{
+    background-image:url('images/commandant.png');
+    Background-position : center center;
+}
+.terre6{
+    background-image:url('images/captain.png');
+    Background-position : center center
+}
+.terre7{
+    background-image:url('images/lieutenant.png');
+    Background-position : center center
+}
+.terre8{
+    background-image:url('images/sergeant.png');
+    Background-position : center center
+}
+.terre9{
+    background-image:url('images/deminer.png');
+    Background-position : center center
+}
+.terre10{
+    background-image:url('images/scout.png');
+    Background-position : center center
+}
+.terre11{
+    background-image:url('images/spy.png');
+    Background-position : center center
+}
+.terre12{
+    background-image:url('images/bomb.png');
+    Background-position : center center
+}
+
+  
+  /* GRID */
+  
+  .twelve { width: 100%; }
+  .eleven { width: 91.53%; }
+  .ten { width: 83.06%; }
+  .nine { width: 74.6%; }
+  .eight { width: 66.13%; }
+  .seven { width: 57.66%; }
+  .six { width: 49.2%; }
+  .five { width: 40.73%; }
+  .four { width: 32.26%; }
+  .three { width: 23.8%; }
+  .two { width: 15.33%; }
+  .one { width: 6.866%; }
+  
+  /* COLUMNS */
+  
+  .col {
+      display: block;
+      float:left;
+      margin: 1% 0 1% 1.6%;
+  }
+  
+  .col:first-of-type {
+    margin-left: 0;
+  }
+  
+  .container{
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+  }
+  
+  /* CLEARFIX */
+  
+  .cf:before,
+  .cf:after {
+      content: " ";
+      display: table;
+  }
+  
+  .cf:after {
+      clear: both;
+  }
+  
+  .cf {
+      *zoom: 1;
+  }
+  
+  .row{
+    margin: 30px 0;
+  }
+  
+  .three{
+    background-color: #eee;
+    padding: 50px 0;
+  }
+  
+  /* ALL LOADERS */
+  
+  .loader{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  /* LOADER 1 */
+  
+  #loader-1:before, #loader-1:after{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border: 10px solid transparent;
+    border-top-color: #3498db;
+  }
+  
+  #loader-1:before{
+    z-index: 100;
+    animation: spin 1s infinite;
+  }
+  
+  #loader-1:after{
+    border: 10px solid #ccc;
+  }
+  
+  @keyframes spin{
+    0%{
+      -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+  
+    100%{
+      -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  
+  
